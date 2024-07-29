@@ -1198,8 +1198,8 @@
   .u-section-5 .u-gallery-1 {
     height: 400px;
     width: 100%;
-    margin-right: undefined;
-    margin-left: undefined;
+    margin-right: 0;
+    margin-left: auto;
   }
 }
 
@@ -1226,11 +1226,6 @@
 
   .u-section-5 .u-layout-cell-2 {
     min-height: 301px;
-  }
-
-  .u-section-5 .u-gallery-1 {
-    margin-right: 0;
-    margin-left: auto;
   }
 }
 
