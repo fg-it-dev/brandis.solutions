@@ -1,0 +1,247 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1023px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 60px 215px 0 57px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 17px 700px 0 57px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-3 {
+  padding: 0;
+}
+
+.u-section-1 .u-accordion-1 {
+  width: 661px;
+  margin: -812px 0 257px auto;
+}
+
+.u-section-1 .u-accordion-link-2 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.u-section-1 .u-icon-2 {
+  height: 20px;
+  width: 20px;
+}
+
+.u-section-1 .u-accordion-pane-1 {
+  min-height: 150px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 20px 30px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 0;
+}
+
+.u-section-1 .u-accordion-link-3 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.u-section-1 .u-icon-3 {
+  height: 20px;
+  width: 20px;
+}
+
+.u-section-1 .u-accordion-pane-2 {
+  min-height: 150px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 20px 30px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 0;
+}
+
+.u-section-1 .u-accordion-link-4 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.u-section-1 .u-icon-4 {
+  height: 20px;
+  width: 20px;
+}
+
+.u-section-1 .u-accordion-pane-3 {
+  min-height: 150px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 20px 30px;
+}
+
+.u-section-1 .u-text-5 {
+  margin: 0;
+}
+
+.u-section-1 .u-accordion-link-5 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.u-section-1 .u-icon-5 {
+  height: 20px;
+  width: 20px;
+}
+
+.u-section-1 .u-accordion-pane-4 {
+  min-height: 150px;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1197px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 298px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-right: 493px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-accordion-1 {
+    width: 473px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-accordion-1 {
+    width: 661px;
+    margin-top: 20px;
+    margin-bottom: 257px;
+  }
+
+  .u-section-1 .u-accordion-pane-1 {
+    min-height: 249px;
+    height: auto;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+  }
+
+  .u-section-1 .u-accordion-pane-2 {
+    min-height: 249px;
+    height: auto;
+  }
+
+  .u-section-1 .u-accordion-pane-3 {
+    min-height: 249px;
+    height: auto;
+  }
+
+  .u-section-1 .u-accordion-pane-4 {
+    min-height: 249px;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-accordion-1 {
+    width: 540px;
+    margin-top: -812px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-accordion-1 {
+    width: 340px;
+  }
+}@font-face {
+  font-family: 'calibri-bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/calibri-bold.ttf);
+}@font-face {
+  font-family: 'calibri-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/calibri-regular.ttf);
+}@font-face {
+  font-family: 'CopperplateGothicBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/CopperplateGothicBold.otf);
+}
