@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Startseite -->
+  <url>
+    <loc>https://brandis.solutions/</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Bewehrte Erde Seite -->
+  <url>
+    <loc>https://brandis.solutions/Bewehrte-Erde.html</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Anhängerverkauf Seite -->
+  <url>
+    <loc>https://brandis.solutions/Anhaengerverkauf.html</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Kontakt Seite -->
+  <url>
+    <loc>https://brandis.solutions/Kontakt.html</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- Projekte Seite -->
+  <url>
+    <loc>https://brandis.solutions/Projekte.html</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
