@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Brandis Werbegrafik | Grafikdesign, Werbetafeln & Fahrzeugbeschriftung</title>
+
+  <meta name="description" content="Brandis Werbegrafik – Kreativität trifft Design in allen Farben. Grafikdesign, Logodesign, Werbetafeln, Banner, Fahrzeugbeschriftung, Lasergravur und Werbemittel aus Österreich.">
+  <meta name="keywords" content="Brandis Werbegrafik, Grafikdesign, Logodesign, Werbetafeln, Banner, Fahrzeugbeschriftung, Werbekonzepte, Lasergravur, Werbemittel, Bekleidungsbeschriftung, Österreich">
+  <meta name="author" content="Brandis Solutions GmbH">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://brandis.solutions/werbegrafik.html">
+
+  <meta name="theme-color" content="#3e3e42">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Brandis Werbegrafik | Kreativität trifft Design">
+  <meta property="og:description" content="Grafikdesign, Logodesign, Werbetafeln, Banner, Fahrzeugbeschriftung, Lasergravur und Werbemittel aus Österreich.">
+  <meta property="og:image" content="https://brandis.solutions/images/BS_Logo_Regenbogen.png">
+  <meta property="og:url" content="https://brandis.solutions/werbegrafik.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_AT">
+  <meta property="og:site_name" content="Brandis Solutions">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Brandis Werbegrafik | Kreativität trifft Design">
+  <meta name="twitter:description" content="Grafikdesign, Werbetafeln, Banner, Fahrzeugbeschriftung und mehr.">
+  <meta name="twitter:image" content="https://brandis.solutions/images/BS_Logo_Regenbogen.png">
+
+  <!-- Strukturierte Daten -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Brandis Solutions GmbH - Werbegrafik",
+      "url": "https://brandis.solutions/werbegrafik.html",
+      "logo": "https://brandis.solutions/images/BS_Logo_Regenbogen.png",
+      "image": "https://brandis.solutions/images/BS_Logo_Regenbogen.png",
+      "email": "werbegrafik@brandis.solutions",
+      "telephone": "+436763862161",
+      "description": "Grafikdesign, Logodesign, Werbetafeln, Banner, Fahrzeugbeschriftung, Lasergravur, Werbemittel und Bekleidungsbeschriftung.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AT"
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #3e3e42;
+      color: white;
+      text-align: center;
+    }
+
+    .header {
+      background: #3e3e42;
+      width: 100%;
+      position: relative;
+      z-index: 999;
+    }
+
+    .header-inner {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 18px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .nav {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .mobile-nav,
+    .menu-toggle,
+    .menu-icon {
+      display: none;
+    }
+
+    .nav a,
+    .call {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 14px;
+      padding: 10px 0;
+      position: relative;
+    }
+
+    .nav a:hover {
+      color: #b39858;
+    }
+
+    .nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 2px;
+      background: #ffffff;
+      transition: 0.3s ease;
+    }
+
+    .nav a:hover::after,
+    .nav a.active::after {
+      width: 100%;
+    }
+
+    .nav-dropdown {
+      position: relative;
+    }
+
+    .dropdown-toggle::after {
+      content: " ▾";
+      font-size: 12px;
+      color: #b39858;
+      margin-left: 6px;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 42px;
+      left: 50%;
+      transform: translateX(-50%);
+      min-width: 240px;
+      background: #3e3e42;
+      border: 1px solid rgba(179,152,88,0.45);
+      box-shadow: 0 14px 35px rgba(0,0,0,0.35);
+      z-index: 9999;
+      padding: 12px 0;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      padding: 13px 22px;
+      color: #ffffff;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .dropdown-menu a::after {
+      display: none;
+    }
+
+    .dropdown-menu a:hover {
+      color: #b39858;
+      background: rgba(255,255,255,0.06);
+    }
+
+    .nav-dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .call {
+      color: #b39858;
+      position: absolute;
+      right: 30px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    .call-icon {
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .logo {
+      max-width: 300px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 20px 0;
+    }
+
+    .services {
+      list-style: none;
+      padding: 0;
+      max-width: 700px;
+      margin: 40px auto 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 40px;
+    }
+
+    .services li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .d1 { background: #e53935; }
+    .d2 { background: #fb8c00; }
+    .d3 { background: #fdd835; }
+    .d4 { background: #43a047; }
+    .d5 { background: #1e88e5; }
+    .d6 { background: #8e24aa; }
+
+    .rainbow-button-row {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .rainbow-btn {
+      padding: 14px 32px;
+      border-radius: 4px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: transparent;
+      border: 2px solid #b39858;
+      transition: all 0.3s ease;
+    }
+
+    .rainbow-btn:hover {
+      background: #b39858;
+      color: #000;
+      transform: translateY(-2px);
+    }
+
+    .rainbow-dots {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 40px;
+    }
+
+    .rainbow-dots span {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: inline-block;
+      animation: blink 1.4s infinite ease-in-out;
+    }
+
+    .rainbow-dots span:nth-child(1) { background: #e53935; animation-delay: 0s; }
+    .rainbow-dots span:nth-child(2) { background: #fb8c00; animation-delay: 0.2s; }
+    .rainbow-dots span:nth-child(3) { background: #fdd835; animation-delay: 0.4s; }
+    .rainbow-dots span:nth-child(4) { background: #43a047; animation-delay: 0.6s; }
+    .rainbow-dots span:nth-child(5) { background: #1e88e5; animation-delay: 0.8s; }
+    .rainbow-dots span:nth-child(6) { background: #8e24aa; animation-delay: 1s; }
+
+    @keyframes blink {
+      0%, 100% { opacity: 0.2; transform: scale(0.7); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    .contact {
+      margin-top: 40px;
+      font-size: 18px;
+    }
+
+    .footer {
+      background: #1f1f1f;
+      padding: 25px 20px;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: #b39858;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 900px) {
+      .header-inner {
+        justify-content: flex-end;
+        padding: 14px 22px;
+        min-height: 52px;
+      }
+
+      .nav,
+      .call {
+        display: none;
+      }
+
+      .menu-icon {
+        display: block;
+        font-size: 34px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+      .mobile-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 22px;
+        width: 260px;
+        background: #3e3e42;
+        border: 1px solid rgba(179,152,88,0.45);
+        box-shadow: 0 14px 35px rgba(0,0,0,0.35);
+        padding: 10px 14px;
+        z-index: 1000;
+      }
+
+      .menu-toggle:checked ~ .mobile-nav {
+        display: block;
+      }
+
+      .mobile-nav a,
+      .mobile-title {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        padding: 13px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.12);
+      }
+
+      .mobile-title {
+        color: #b39858;
+      }
+
+      .mobile-call {
+        color: #b39858 !important;
+        border-bottom: none !important;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .services {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-inner">
+
+    <nav class="nav">
+      <a href="werbegrafik.html" class="active">Werbegrafik</a>
+
+      <div class="nav-dropdown">
+        <a href="#" class="dropdown-toggle">Brandis Solutions</a>
+
+        <div class="dropdown-menu">
+          <a href="Bewehrte-Erde.html">Bewehrte Erde</a>
+          <a href="Ahängerverkauf.html">Anhängerverkauf</a>
+          <a href="Kontakt.html">Kontakt</a>
+        </div>
+      </div>
+    </nav>
+
+    <a class="call" href="tel:+436644249572">
+      <span class="call-icon">☎</span>
+      <span>ANRUFEN</span>
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="mobile-nav">
+      <a href="werbegrafik.html">Werbegrafik</a>
+      <span class="mobile-title">Brandis Solutions</span>
+      <a href="Bewehrte-Erde.html">Bewehrte Erde</a>
+      <a href="Ahängerverkauf.html">Anhängerverkauf</a>
+      <a href="Kontakt.html">Kontakt</a>
+      <a href="tel:+436644249572" class="mobile-call">☎ ANRUFEN</a>
+    </nav>
+
+  </div>
+</header>
+
+<div class="container">
+
+  <img src="images/BS_Logo_Regenbogen.png" class="logo" alt="Brandis Werbegrafik Logo">
+
+  <h1>DIE SEITE BEFINDET SICH IM AUFBAU</h1>
+
+  <div class="rainbow-dots">
+    <span></span><span></span><span></span>
+    <span></span><span></span><span></span>
+  </div>
+
+  <ul class="services">
+    <li><span class="dot d1"></span>Grafikdesign</li>
+    <li><span class="dot d2"></span>Werbetafeln</li>
+    <li><span class="dot d3"></span>Banner & Roll-Ups</li>
+    <li><span class="dot d4"></span>Fahrzeugbeschriftung</li>
+    <li><span class="dot d5"></span>Werbekonzepte</li>
+    <li><span class="dot d6"></span>Logodesign</li>
+    <li><span class="dot d1"></span>Corporate Design</li>
+    <li><span class="dot d2"></span>Werbedesign</li>
+    <li><span class="dot d3"></span>Lasergravur</li>
+    <li><span class="dot d4"></span>Werbemittel</li>
+    <li><span class="dot d5"></span>Geschenksartikel</li>
+    <li><span class="dot d6"></span>Bekleidungsbeschriftung</li>
+  </ul>
+
+  <div class="rainbow-button-row">
+    <a href="werbegrafik.html" class="rainbow-btn">Brandis Solutions - Werbegrafik</a>
+    <a href="Bewehrte-Erde.html" class="rainbow-btn">Brandis Solutions - Bau</a>
+  </div>
+
+  <div class="contact">
+    <p>www.brandis.solutions</p>
+    <p>werbegrafik@brandis.solutions</p>
+    <p>0676 / 3862161</p>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <a href="Impressum.html">Impressum</a> |
+  <a href="files/Allgemeine-Geschaftsbedingungen-BrandisSolutionsGmbH.pdf" target="_blank">AGB</a> |
+  <a href="https://www.iubenda.com/privacy-policy/66901618">Datenschutzerklärung</a> |
+  <a href="https://www.iubenda.com/privacy-policy/66901618/cookie-policy">Cookie-Richtlinie</a>
+</footer>
+
+</body>
+</html>
